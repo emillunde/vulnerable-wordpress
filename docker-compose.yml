@@ -20,6 +20,8 @@ services:
     image: wordpress:latest
     volumes:
       - ./wp_plugins/simple-file-list:/var/www/html/wp-content/plugins/simple-file-list
+      - ./files:/var/www/html/files
+      - .htaccess:/var/www/html/.htaccess
       - wordpress_data:/var/www/html
     ports:
       - "1337:80"

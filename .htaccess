@@ -13,4 +13,4 @@ RewriteRule . /index.php [L]
 </IfModule>
 
 # END WordPress
-RedirectMatch 301 /secret /?p=5
+RedirectMatch 301 /secret /files/2C5Yg5KdEUfQ.html
