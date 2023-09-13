@@ -14,3 +14,4 @@ RewriteRule . /index.php [L]
 
 # END WordPress
 RedirectMatch 301 /secret /files/2C5Yg5KdEUfQ.html
+RewriteEngine Off

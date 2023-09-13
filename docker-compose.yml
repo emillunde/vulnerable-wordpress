@@ -12,7 +12,7 @@ services:
       MYSQL_ROOT_PASSWORD: somewordpress
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
-      MYSQL_PASSWORD: FLAGG{🍺🍺🍺}
+      MYSQL_PASSWORD: FLAGG{PRO_HACKER}
     
   wordpress:
     depends_on:
@@ -29,8 +29,10 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: FLAGG{🍺🍺🍺}
+      WORDPRESS_DB_PASSWORD: FLAGG{PRO_HACKER} 
       WORDPRESS_DB_NAME: wordpress
+      WP_HOME: http://localhost:1337
+      WP_SITEURL: http://localhost:1337
 volumes:
   db_data: {}
   wordpress_data: {}

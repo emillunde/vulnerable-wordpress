@@ -395,7 +395,7 @@ CREATE TABLE `wp_users` (
 
 LOCK TABLES `wp_users` WRITE;
 /*!40000 ALTER TABLE `wp_users` DISABLE KEYS */;
-INSERT INTO `wp_users` VALUES (1,'admin','$P$BuLVpGvYBPHZr.Ylkcv9p908aRYKuV.','admin','p0g7n687@duck.com','http://localhost:1337','2022-10-04 19:18:11','',0,'admin'),(2,'FLAGG','BRA_JOBBA!','','','','2022-10-04 19:18:12','',0,'');
+INSERT INTO `wp_users` VALUES (1,'admin','$P$BuLVpGvYBPHZr.Ylkcv9p908aRYKuV.','admin','p0g7n687@duck.com','http://localhost:1337','2022-10-04 19:18:11','',0,'admin'),(2,'en_bruker','FLAGG{DuErFlink!}','','','','2022-10-04 19:18:12','',0,'');
 /*!40000 ALTER TABLE `wp_users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
